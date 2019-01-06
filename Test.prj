@@ -1,0 +1,168 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration build-checksum="4285173749" file="/media/yazmeh/824F-2CA6/Docs/Tcet/Project/BE Proj/Main/Test.prj" location="/media/yazmeh/824F-2CA6/Docs/Tcet/Project/BE Proj/Main" name="Test" preferred-package-location="/media/yazmeh/824F-2CA6/Docs/Tcet/Project/BE Proj/Main/Test/for_redistribution" preferred-package-type="package.type.install" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>Test</param.appname>
+    <param.icon />
+    <param.icons />
+    <param.version>1.0</param.version>
+    <param.authnamewatermark />
+    <param.email />
+    <param.company />
+    <param.summary />
+    <param.description />
+    <param.screenshot />
+    <param.guid />
+    <param.installpath.string>/Test/</param.installpath.string>
+    <param.installpath.combo>option.installpath.user</param.installpath.combo>
+    <param.logo />
+    <param.install.notes>In the following directions, replace MCR_ROOT by the directory where the MATLAB Runtime is installed on the target machine.
+
+(1) Set the environment variable XAPPLRESDIR to this value:
+
+    MCR_ROOT/v91/X11/app-defaults
+
+
+(2) If the environment variable LD_LIBRARY_PATH is undefined, set it to the concatenation of the following strings:
+
+    MCR_ROOT/v91/runtime/glnxa64:
+    MCR_ROOT/v91/bin/glnxa64:
+    MCR_ROOT/v91/sys/os/glnxa64:
+    MCR_ROOT/v91/sys/opengl/lib/glnxa64
+
+    If it is defined, set it to the concatenation of these strings:
+
+    ${LD_LIBRARY_PATH}: 
+    MCR_ROOT/v91/runtime/glnxa64:
+    MCR_ROOT/v91/bin/glnxa64:
+    MCR_ROOT/v91/sys/os/glnxa64:
+    MCR_ROOT/v91/sys/opengl/lib/glnxa64</param.install.notes>
+    <param.target.install.notes />
+    <param.intermediate>/home/yazmeh/Mytest/f</param.intermediate>
+    <param.files.only>/home/yazmeh/Mytest/t</param.files.only>
+    <param.output>/home/yazmeh/Mytest/u</param.output>
+    <param.logdir>/home/yazmeh/Mytest</param.logdir>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.embed.ctf>true</param.embed.ctf>
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>false</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>false</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.summary />
+      <param.description />
+      <param.screenshot />
+      <param.guid />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.logo />
+      <param.target.install.notes />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.embed.ctf />
+      <param.target.type />
+      <param.support.packages />
+      <param.web.mcr />
+      <param.package.mcr />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}/Menu.m</file>
+    </fileset.main>
+    <fileset.resources />
+    <fileset.package />
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}/Comparator.fig</file>
+      <file>${PROJECT_ROOT}/Comparator.m</file>
+      <file>${PROJECT_ROOT}/DecoderGUI.fig</file>
+      <file>${PROJECT_ROOT}/DecoderGUI.m</file>
+      <file>${PROJECT_ROOT}/EncoderGUI.fig</file>
+      <file>${PROJECT_ROOT}/EncoderGUI.m</file>
+      <file>${PROJECT_ROOT}/Menu.fig</file>
+      <file>${PROJECT_ROOT}/VCDecod.m</file>
+      <file>${PROJECT_ROOT}/VCEncod.m</file>
+      <file>${PROJECT_ROOT}/def</file>
+      <file>${PROJECT_ROOT}/func_DWT.m</file>
+      <file>${PROJECT_ROOT}/func_InvDWT.m</file>
+      <file>${PROJECT_ROOT}/func_MyDescendant.m</file>
+      <file>${PROJECT_ROOT}/func_Myappcoef2.m</file>
+      <file>${PROJECT_ROOT}/func_Mywavedec2.m</file>
+      <file>${PROJECT_ROOT}/func_Mywaverec2.m</file>
+      <file>${PROJECT_ROOT}/func_SPIHT_Dec.m</file>
+      <file>${PROJECT_ROOT}/func_SPIHT_Enc.m</file>
+      <file>${PROJECT_ROOT}/main_decod.m</file>
+      <file>${PROJECT_ROOT}/main_encod.m</file>
+      <file>${PROJECT_ROOT}/uiProgressBar.m</file>
+      <file>${PROJECT_ROOT}/verify.m</file>
+    </fileset.depfun>
+    <build-deliverables>
+      <file location="/home/yazmeh/Mytest/f" name="run_Test.sh" optional="false">/home/yazmeh/Mytest/f/run_Test.sh</file>
+      <file location="/home/yazmeh/Mytest/f" name="splash.png" optional="false">/home/yazmeh/Mytest/f/splash.png</file>
+      <file location="/home/yazmeh/Mytest/f" name="readme.txt" optional="true">/home/yazmeh/Mytest/f/readme.txt</file>
+      <file location="/home/yazmeh/Mytest/f" name="Test" optional="false">/home/yazmeh/Mytest/f/Test</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>/usr/local/MATLAB/R2016b</root>
+      <toolboxes>
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabcoder" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="embeddedcoder" />
+      </toolboxes>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>true</unix>
+      <mac>false</mac>
+      <windows>false</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>true</linux>
+      <solaris>false</solaris>
+      <osver>4.4.0-71-generic</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>glnxa64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
